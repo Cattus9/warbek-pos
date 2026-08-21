@@ -1,0 +1,39 @@
+// {
+//   "$schema": "https://opencode.ai/config.json",
+//   "model": "cosmoshub/qwen-3.8-max",
+//   "provider": {
+//     "cosmoshub": {
+//       "npm": "@ai-sdk/openai-compatible",
+//       "options": {
+//         "baseURL": "https://api.cosmoshub.tech/v1",
+//         "apiKey": "sk-cos-KjPV8MnxlLjyQP4VM4N9Q0qGZrUAmMVS8ZwSfi0jOtY" 
+//       },
+//       "models": {
+//         "qwen-3.8-max": {
+//           "name": "qwen-3.8-max"
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "mm/mimo-v2.5-pro",
+  "provider": {
+    "highkey": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": " https://highkey.my.id/v1",
+        "apiKey": "sk-spx-X311Gvb0PTzoLoiRB9ilbWBe6sD1oy-8" 
+      },
+      "models": {
+        "mm/mimo-v2.5-pro": {
+          "name": "MiMo 2.5 Pro"
+        }
+      }
+    }
+  }
+}

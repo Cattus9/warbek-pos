@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# logs
+server.log
+*.log
+
+# opencode / agents (optional - uncomment if you don't want to track)
+# .agents/
+# .claude/
+# agent/
