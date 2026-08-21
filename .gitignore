@@ -44,7 +44,8 @@ next-env.d.ts
 server.log
 *.log
 
-# opencode / agents (optional - uncomment if you don't want to track)
-# .agents/
-# .claude/
-# agent/
+# agents / AI configs - ignored
+.agents/
+.claude/
+CLAUDE.md
+AGENTS.md
